@@ -1,0 +1,325 @@
+/** Start Media Query **/
+@media only screen and (max-width:1440px) {
+    .home-slider .carousel-body {
+        padding: 0 15px 5% 0;
+    }
+    p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    body.body .container-fluid{
+        padding: 0 4rem;
+    }
+
+}
+
+@media(max-width:1366px){
+    .filter-options li{
+        flex:0 0 90%;
+        width: 90%;
+    }
+    .submenu-list li {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header nav.navbar .nav-item .nav-link, .submenu-list li a{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    body.body .container-fluid{
+        padding: 0px 1rem;
+    }
+}
+@media only screen and (max-width:1199px) {
+    header nav.navbar .nav-item .nav-link{
+        font-size: 12px;
+    }
+    .submenu-list li a{
+        font-size: 14px;
+    }
+    .director-box .content-box h2, .director-box .content-box h4{
+        font-size: 16px;
+    }
+    .director-box .content-box{
+        padding: 15px;
+    }
+    .director-box .content-box .text-box p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .director-box:hover .content-box .text-box{
+
+        height: 90px;
+    }
+
+    p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .title-h2{
+        font-size: 24px;
+    }
+    .title-h5{
+        font-size: 12px;
+        letter-spacing: 3px;
+        
+    }
+    .link{
+        min-width: 160px;
+        padding: 10px 20px;
+    }
+    .over-content h4{
+        font-size: 16px;
+    }
+    .our-merket .nav-pills .nav-link{
+        font-size: 16px;
+    }
+    .title{
+        font-size: 24px;
+    }
+
+   
+   
+    
+}
+@media only screen and (max-width:991px){
+    header nav.navbar .navbar-brand{
+
+        img{
+            width:50%;
+        }
+    }
+    header nav.navbar{
+        padding: 10px 20px;
+        
+    }
+    .subscribe-form-tabs{
+        width: 80%;
+    }
+    .footer-top{
+        margin-right: 3rem;
+    }
+    .footer-menu{
+        padding-left: 2rem;
+    }
+    .input-style, .select-style{
+        width: calc(100% - 10%);
+    }
+    .home-slider .carousel-body .slide-info{
+        width: 90%;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .title-h2{
+        font-size: 20px;
+    }
+    .title-h5{
+        font-size: 16px;
+    }
+    .our-merket .nav-pills .nav-link, .latest-news .nav-pills .nav-link, .ourmediacenter-section .nav-pills .nav-link{
+        font-size: 16px;
+    }
+    .navbar-toggler{
+        &:focus{
+            outline: none;
+            box-shadow: none!important;
+        }
+    }
+    header nav.navbar .nav-item{
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+    header nav.navbar .nav-item .nav-link{
+        font-size: 14px;
+    }
+    .our-merket .nav-pills .nav-link, 
+    .latest-news .nav-pills .nav-link, 
+    .ourmediacenter-section .nav-pills .nav-link, 
+    .subscribe-form-tabs .nav-pills .nav-link{
+        font-size: 12px;
+        padding:0.5rem 1rem;
+    }
+    .footer-menu{
+        padding-left: 0;
+        border-left: 0;
+    }
+    .om-img{
+        margin: 0;
+    }
+    .milestone-tab-content{
+       
+    
+        .milestone{
+          
+            &:nth-child(even){
+                margin-top: 0px;
+    
+    
+            }
+            
+        }
+    
+    }
+    .ml20p{
+        margin-left: 0%;
+      }
+    
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    
+}
+
+@media only screen and (max-width:767px){
+    header nav.navbar .navbar-brand img{
+        width: 60%;
+
+    }
+    .home-slider .carousel-control-prev, .home-slider .carousel-control-next{
+
+        width: 47px;
+        height: 47px;
+    }
+    .home-slider .carousel-control-prev{
+        right: 47px;
+    }
+    .home-slider .carousel-control-next{
+        bottom: 47px;
+    }
+    .home-slider{
+        height: 80vh;
+    }
+    .home-slider .carousel-body .slide-info .h1{
+        font-size:28px;
+    }
+    .home-slider .carousel-body .slide-info p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .title-h5{
+        font-size: 12px;
+    }
+    .footer-top{
+        margin-right: 0;
+    }
+    .footer p{
+        line-height: 24px;
+    }
+
+    .bs-carousel_ {
+    
+        .carousel-indicators {
+          li {
+            width: 56px;
+            height: 56px;
+      
+            &.active {
+              height: 80px;
+              width:80px;
+            
+            }
+         
+          }
+        }
+        .carousel-control-next,
+        .carousel-control-prev {
+          width:30px;
+          height: 30px;
+          flex: 0 0 30px;
+    
+        }
+      
+      }
+      .our-gallery .item .hover-content, .our-video .item .hover-content{
+        display: none;
+      }
+      .dl-box .right-content{
+
+        margin-left: 0;
+      }
+
+
+}
+@media(max-width:480px){
+    .inner-banner{
+        height:70vh;
+        .img-box{
+            height: 100%;
+            img{
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+    .breadcrumb_menu{
+
+        font-size: 14px;
+    }
+    .footer-menu li{
+        width: 100%;
+        flex:0 0 100%;
+    }
+    .our-gallery .video-play-btn, .our-video .video-play-btn{
+
+        width: 30px;
+        height: 30px;
+    }
+    .our-gallery .item .hover-content .text-box, .our-video .item .hover-content .text-box{
+        top: 0;
+    }
+    .our-gallery .item .hover-content, .our-video .item .hover-content{
+        padding: 15px;
+    }
+    .filter-options li{
+
+        width: 100%;
+        flex:0 0 100%;
+    }
+    .filter-options li.tag{
+        width: 44%;
+    }
+    .galleryFilterAccordion{
+        padding: 15px;
+    }
+    .our-merket{
+       
+      
+        .company-tabs{
+            .nav{
+                .nav-item{
+                    width: 25%;
+                }
+            }
+
+        }
+        
+    }
+    .contact-address-wrapper, .director-wrapper, .connolly-right-content{
+        margin-top: 0;
+    }
+    .dw-title{
+        white-space: nowrap;
+        font-size: 16px;
+    }
+    .eds{
+        height: 60vh;
+        img{
+            width: auto;
+            height: 100%;
+        }
+    }
+    .entities-description-content{
+        width: 100%;
+    }
+    .our-merket .nav-pills .nav-link, .latest-news .nav-pills .nav-link, .ourmediacenter-section .nav-pills .nav-link, .subscribe-form-tabs .nav-pills .nav-link {
+        font-size: 12px;
+        padding: 0.5rem 0.5rem;
+    }
+    .job-box{
+        margin-bottom: 20px;
+    }
+}
